@@ -1,0 +1,60 @@
+html, body, body>div{
+    margin: 0;
+    height:100%;
+    padding: 0;
+    background: #444;
+}
+#theslides{
+	list-style: none;
+	padding: 0;
+	height:100%;
+	margin: 0;
+}
+li{
+	height:100%;
+
+}
+
+.slide{
+    padding: 1%;
+}
+#s_1{
+	background: #34495e;
+}
+#s_2{
+	background: #2980b9;
+}
+#s_3{
+	background: #f39c12;
+}
+#s_4{
+	background: #c0392b;
+}
+#s_5{
+	background: #34495e;
+}
+#sticky{
+	position:fixed;
+	bottom:0px;
+	height: 25px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 3px;
+	padding: 5px 15px 5px 15px;
+	margin: 0 0 5px 5px;
+	color: #f2f2f2;
+	font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+#count{
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+}
+.s_header{
+	color: #fff;
+	font-size: 7em;
+}
+.s_content, .s_content ul>li, .s_content ol>li{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: lighter!important;
+}
